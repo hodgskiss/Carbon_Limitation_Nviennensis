@@ -1,0 +1,26 @@
+This folder contains R scripts for processing proteomic data:
+
+	Protein_Raw_Data_Processing
+		-extracting LFQ data from MaxQuant output
+	Protein_PCA_Plot_Figure_2
+		-script for creating PCA plot seen in Figure 2
+	Calculating_Protein_Averages
+		-calculates protein averages after removing outliers in each condition
+	Calculating_Protein_Standard_Deviations
+		-calculates protein standard deviation after removing outliers in each condition
+	Protein_ANOVA_and_Kruskal-Wallis_Tests
+		-calculated protein significance using respective statistical tests
+	Protein_Clustering_Script_Figure_3_Table_S7
+		-script for creating clusting plot in Figure 3 and correpsonding Table_S7
+
+Input files:
+	proteinGroups.txt
+		-output from MaxQuant
+	condition_info.txt
+		-information about experimental conditions
+	Genes_Codes_List.csv
+		-annotation information for <i> N. viennensis <\i> genes
+
+	
+
+	
